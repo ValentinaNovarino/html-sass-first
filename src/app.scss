@@ -1,5 +1,23 @@
-$titlecolor: blue;
+$primarycolor: #001f3f;
+$color: #2ECC40;
+$spacing: 10px;
+
+body {
+    margin: $spacing * 2;
+}
 
 h1 {
-    color: $titlecolor;
+    color: $primarycolor;
+}
+
+button {
+    padding: $spacing;
+    border-radius: $spacing / 2;
+    border: 1px solid white;
+    color: $color;
+    background-color: $primarycolor;
+}
+
+h2 {
+    color: $color;
 }
